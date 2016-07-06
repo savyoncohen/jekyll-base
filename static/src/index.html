@@ -3,14 +3,79 @@ layout: default
 label: Homepage
 ---
 <div class="ui segment stacked center aligned">
-  <h1>Jekyll base</h1>
-  <p>
-    Currently there is only this homepage, and the <a href="/pages-list">pages-list</a>.
-    Go ahead, and edit this page, or add new ones.
-  </p>
+  <h1>This is the header of tel aviv article</h1>
 
-  <p>
-    Look in <code>/src/_layouts</code> and <code>/src/_includes</code> to understand how the
-    <code>default</code> layout is created.
-  </p>
+  <article>
+    <header>
+      <h1>All about Tel aviv</h1>
+      <p>Everything you need to know about Tel aviv</p>
+    </header>
+    <p>
+      <a href="#">Tel aviv</a> is the second largest city in Israel
+      Go ahead, and edit this page, or add new ones.
+      (after Jerusalem), and the largest metropolitan area.
+      It is on the Mediterranean coast, about 60 km north-west of <a href="#">Jerusalem</a> and some 100 km south of Haifa.
+      The official name is Tel Aviv-Yafo , and reflects the fact that the city has grown beside (and absorbed) the ancient port city of Yafo
+      to the south of the new city center, in addition to many other neighboring cities. Tel Aviv is home to most foreign embassies.
+    </p>
+    <p>
+      Tel Aviv is a rapidly growing city in the midst of an exciting transition from medium-sized urban center to bustling international metropolis.
+      Its booming population, energy, edginess and 24-hour life style give the city a cosmopolitan flair comparable to few other cities in this part of the world.
+    </p>
+    <p>
+      Tel Aviv is not really divided into districts, but rather into over 50 different neighborhoods. Some neighborhoods are really distinctive areas with different cultures (e.g. Neve Tzedek, Florentin, Ramat-Ha'Chayal), while others are simply indicating a geographical area. Tel Aviv grew mainly from the south to the north so the further you go to the north you will encounter newer buildings and wealthier communities.
+    </p>
+  </article>
+  <div>
+    <h2> the title for the list</h3>
+    <ul>
+      <li class="list_item">
+        <b>North</b> - The wealthiest district of Tel Aviv and one of the wealthiest in entire Israel stretches from the north side on the Yarkon River.
+      </li>
+      <li class="list_item">
+        <b>Center</b> - The city's center contains "The Heart of Tel Aviv" and "The old north". The main metropolitan area of the city contains tourists attractions and shopping areas.
+      </li>
+      <li class="list_item">
+        <b>South</b> - The original District of Tel Aviv contains the first neighborhoods that constructed Tel Aviv.
+      </li>
+      <li class="list_item">
+        <b>Jaffa</b> — (Yafo in Hebrew, Yaffa in Arabic) is one of the world's oldest ports. It was here that the prophet Jonah started the journey that left him in the belly of the whale. </li>
+    </ul>
+    <h3> register form</3>
+    <form>
+      <div class="input__wrapper">
+      <label for="name">name</label>
+      <input id="name" type="text" placeholder="enter your name">
+    </div>
+        <div class="input__wrapper">
+      <label for="phone">phone</label>
+      <input id="phone" placeholder="type your phone number" type="tel">
+      </div>
+        <div class="input__wrapper">
+      <label for="email">email</label>
+      <input id="email" placeholder="type your email" type="email">
+      </div>
+        <div class="input__wrapper">
+      <select id="birth year">
+        <option value="1">1970</option>
+        <option value="2">1980</option>
+        <option value="3">1990</option>
+        <option value="4">2000</option>
+        <option value="5">2010</option>
+        <option value="6">I'm just a baby</option>
+      </select>
+      </div>
+      <br>
+        <div class="input__wrapper">
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">I want the check this box</label>
+    </div>
+    <div class="input__wrapper">
+      <label class="textarea__label" for="some-text">What's on your mind</label>
+      <textarea id="some-text"></textarea>
+    </div>
+    </form>
+  </div>
+
+
 </div>
